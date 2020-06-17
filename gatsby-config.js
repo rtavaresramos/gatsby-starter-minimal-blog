@@ -7,6 +7,7 @@ module.exports = {
     siteTitleAlt: `Minimal Blog - Gatsby Theme`,
   },
   plugins: [
+        `gatsby-plugin-netlify-cms`,
     {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       // See the theme's README for all available options
